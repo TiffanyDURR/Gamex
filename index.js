@@ -192,7 +192,7 @@ function final() {
   console.log("Game Time:", gameTime);
   console.log("Total Score:", score);
 
-  fetch("https://tiffanydurr.github.io/Gamex:443/post", {
+  fetch("https://tiffanydurr.github.io/Gamex/post", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -224,8 +224,8 @@ function replay() {
   });
 }
 
-window.addEventListener("load", () => {
-  fetch("https://tiffanydurr.github.io/Gamex:443/allScores")
+https: window.addEventListener("load", () => {
+  fetch("https://tiffanydurr.github.io/Gamex/allScores")
     .then((response) => response.json())
     .then((data) => {
       // Trier les scores par totalScore en ordre décroissant et prendre les 15 premiers
