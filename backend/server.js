@@ -3,7 +3,7 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const PostModel = require("./models/post.model"); // Ajoutez cette ligne pour importer le modèle
 const dotenv = require("dotenv").config();
-const port = 3006;
+const port = 443;
 
 // Connexion à la DB
 connectDB();
