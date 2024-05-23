@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "Quelle est la couleur du ciel ?",
+    rep1: "Bleu",
+    rep2: "Rouge",
+    rep3: "Vert",
+    rep4: "Jaune",
+    good: "rep1",
+  },
+  {
+    question: "Combien font 2+2 ?",
+    rep1: "7",
+    rep2: "3",
+    rep3: "4",
+    rep4: "9",
+    good: "rep3",
+  },
+  {
+    question: `Quel animal est Scooby-Doo ?`,
+    rep1: "Un lapin",
+    rep2: "Un chien",
+    rep3: "Un chat",
+    rep4: "Une poule",
+    good: "rep2",
+  },
+  {
+    question: "Quel meuble sert à dormir ?",
+    rep1: "La chaise",
+    rep2: "La table",
+    rep3: "Le lit",
+    rep4: "Le bureau",
+    good: "rep3",
+  },
+  {
+    question: "A quelle période se fête Noël ?",
+    rep1: "Juin",
+    rep2: "Juillet",
+    rep3: "Septembre",
+    rep4: "Décembre",
+    good: "rep4",
+  },
+];

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <div id="allScores">Tous les scores</div>
+    <input type="text" id="playerName" />
+    <section>
+      <h3 class="questionindex">1 / 5 questions</h3>
+      <h3 class="score"><span></span></h3>
+      <h2 class="question"></h2>
+      <ul>
+        <li id="rep1" class="rep"></li>
+        <li id="rep2" class="rep"></li>
+        <li id="rep3" class="rep"></li>
+        <li id="rep4" class="rep"></li>
+      </ul>
+      <div class="answer"></div>
+      <form action="">
+        <button id="submit" type="submit">Valider</button>
+      </form>
+      <div class="next">Question suivante</div>
+      <div class="result">Voir le résultat</div>
+      <div class="replay">Rejouer</div>
+    </section>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
